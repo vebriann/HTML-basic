@@ -1,0 +1,17 @@
+:root {
+    --negro-jir-: black;
+    --dawa-sendik-: max-content;
+    --tanam-ubi: 10px; 
+}
+
+h1:nth-child(1) {
+    border: 1px solid var(--negro-jir-);
+    width: var(--dawa-sendik-);
+    padding: var(--tanam-ubi);
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
