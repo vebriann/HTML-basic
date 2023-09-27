@@ -6,12 +6,42 @@
     <title>Document</title>
   </head>
   <style>
-    table thead tr {
-        color: red;
-        background-color: blue;
+    table {
+      border-collapse: collapse;
+      font-family: Verdana sans-serif;
     }
-    table tbody tr {
-        color: blue;
+
+    thead td {
+      background-color: #000000;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    td:first-child {
+      width: 50px;
+    }
+
+    td:not(:first-child) {
+      width: 100px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color:  #81CFE0;
+      color: #333;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #81CFE0;
+      color: #333;
+    }
+
+    tbody tr:hover {
+      background-color: white;
+      color:  #81CFE0 ;
     }
   </style>
   <body>
@@ -27,13 +57,18 @@
         </tr>
         <tr>
           <td> 2 </td>
-          <td>jasim</td>
-          <td>cilacap pride</td>
+          <td>Bobby</td>
+          <td>Blitar</td>
         </tr>
         <tr>
           <td> 3 </td>
-          <td>ono</td>
-          <td>ngawi</td>
+          <td>Charlie</td>
+          <td>Tulung Agung</td>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td>Biana</td>
+          <td>Jombang</td>
         </tr>
       </tbody>
     </table>
